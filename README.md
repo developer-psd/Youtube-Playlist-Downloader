@@ -20,9 +20,13 @@ A simple Python script for downloading an entire YouTube playlist from a playlis
 - `yt-dlp`
 - `ffmpeg` (optional but strongly recommended for merging best video + audio streams)
 
+## Usage
+python download.py <playlist_link> <low|medium|high>
+
 ## Installation
 
 Clone the repo and install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
